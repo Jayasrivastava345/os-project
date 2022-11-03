@@ -1,0 +1,1 @@
+cmd_/home/jaya/Desktop/os_project/jiffies/Module.symvers := sed 's/\.ko$$/\.o/' /home/jaya/Desktop/os_project/jiffies/modules.order | scripts/mod/modpost -m -a  -o /home/jaya/Desktop/os_project/jiffies/Module.symvers -e -i Module.symvers   -T -

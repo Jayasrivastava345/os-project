@@ -1,0 +1,1 @@
+cmd_/home/jaya/Desktop/os_project/seconds/seconds.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/jaya/Desktop/os_project/seconds/seconds.ko /home/jaya/Desktop/os_project/seconds/seconds.o /home/jaya/Desktop/os_project/seconds/seconds.mod.o;  true

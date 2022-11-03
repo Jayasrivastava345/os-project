@@ -1,0 +1,1 @@
+cmd_/home/jaya/Desktop/os_project/seconds/Module.symvers := sed 's/\.ko$$/\.o/' /home/jaya/Desktop/os_project/seconds/modules.order | scripts/mod/modpost -m -a  -o /home/jaya/Desktop/os_project/seconds/Module.symvers -e -i Module.symvers   -T -
